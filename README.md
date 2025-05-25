@@ -1,33 +1,43 @@
 # CLOUD-STORAGE-CREATION-S3-AND-LAUNCHING-AN-EC2-INSTANCE-IN-AWS-
-Aim:
+# Aim:
 To create a Simple Storage Service (S3) in AWS and to launch an EC2 instance in AWS.
 
-Procedure
-a) Steps to Create a first S3 Bucket:
+# Procedure
+# a) Steps to Create a first S3 Bucket:
 
-Step 1: Sign in to the AWS Management Console Go to https://console.aws.amazon.com/s3. 
+# Step 1: 
+Sign in to the AWS Management Console Go to https://console.aws.amazon.com/s3. 
 
-Step 2: Open the S3 Service In the console, type S3 in the search bar and select S3 to open the service dashboard. 
+# Step 2: 
+Open the S3 Service In the console, type S3 in the search bar and select S3 to open the service dashboard. 
 
-Step 3: Create Bucket Click the Create bucket button. 
+# Step 3: 
+Create Bucket Click the Create bucket button. 
 
-Step 4: Configure Bucket Settings
+# Step 4: 
+Configure Bucket Settings
 
 • Bucket name: Choose a globally unique name. • AWS Region: Select the region where you want to store your data.
 
-Step 5: Object Ownership Choose between: ▪ ACLs disabled (recommended) – Bucket owner has full control. ▪ ACLs enabled – Control access via access control lists.
+# Step 5: 
+Object Ownership Choose between: ▪ ACLs disabled (recommended) – Bucket owner has full control. ▪ ACLs enabled – Control access via access control lists.
 
-Step 6: Block Public Access Settings By default, all public access is blocked. Leave it as-is unless you need public access. 
+# Step 6: 
+Block Public Access Settings By default, all public access is blocked. Leave it as-is unless you need public access. 
 
-Step 7: Bucket Versioning (optional) Choose whether to enable versioning for objects in the bucket.
+# Step 7: 
+Bucket Versioning (optional) Choose whether to enable versioning for objects in the bucket.
 
-Step 8: Encryption (optional) Select encryption options (SSE-S3, SSE-KMS, or none). 
+# Step 8: 
+Encryption (optional) Select encryption options (SSE-S3, SSE-KMS, or none). 
 
-Step 9: Advanced Settings (optional) Add tags, configure logging, etc. 
+# Step 9: 
+Advanced Settings (optional) Add tags, configure logging, etc. 
 
-Step 10: Create the Bucket Click Create bucket at the bottom of the page.
+# Step 10: 
+Create the Bucket Click Create bucket at the bottom of the page.
 
-b) i. Steps to launch an EC2 Instance
+# b) i. Steps to launch an EC2 Instance
 
 Go to the EC2 Dashboard in AWS Console.
 
@@ -47,23 +57,23 @@ Review the settings and click “Launch Instance”.
 
 Wait for the instance to enter the running state.
 
-c) Step 3: Connect to Your Instance
+# c) Step 3: Connect to Your Instance
 
 • Linux: Use SSH command with your .pem key. • Windows: Use RDP with decrypted admin password.
 
-d) Steps to Clean Up (Terminate the Instance)
+# d) Steps to Clean Up (Terminate the Instance)
 
 Go to EC2 Instances.
 Select your instance → Instance State → Terminate.
 
-Output:
+# Output:
 
-Simple Storage Service:
+# Simple Storage Service:
 
 ![image](https://github.com/user-attachments/assets/bc0d38bd-8637-454f-a5e8-e2ca0e373526)
 
-EC2(Elastic Cloud Compute)
+# EC2(Elastic Cloud Compute)
 ![image](https://github.com/user-attachments/assets/9d91ffc0-2e29-49f5-b8d8-fe5616a43ff7)
 
-Result:
+# Result:
 Thus, a Simple Storage Service (S3) and EC2 (Elastic Compute Cloud) - instance has been successfully created and launched in AWS
